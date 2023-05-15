@@ -1,7 +1,7 @@
 import os
 import glob
 
-root_path = '/data/pyj/dataset/xd-feature/audio/test'    ## the path of features
+root_path = '/data/xxx/dataset/xd-feature/audio/test'    ## the path of features
 files = sorted(glob.glob(os.path.join(root_path, "*.npy")))
 violents = []
 normal = []
