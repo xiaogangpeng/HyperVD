@@ -4,7 +4,6 @@ This is a PyTorch implementation for ***Learning Weakly Supervised Audio-Visual 
 # Abstract 
 In recent years, the field of weakly supervised audio-visual violence detection has gained substantial attention. The goal of this task is to identify multimodal violent snippets based on the video-level label. Despite the progress made, traditional Euclidean neural networks used in previous methods still face challenges in capturing discriminative representations. To overcome this limitation, we propose HyperVD, a novel framework that learns snippet embeddings in hyperbolic space to improve model discrimination. Specifically, our framework comprises a detour fusion module for multimodal fusion, which effectively alleviates modality inconsistency, and two branches of fully hyperbolic graph convolutional networks, which excavate feature similarities and temporal relationships among snippets in hyperbolic space. Extensive experiments on the XD-Violence benchmark demonstrate that our method outperforms the state-of-the-art methods by a sizable margin. 
 
-
 ## Training Stage
 - Download the extracted I3D features of XD-Violence dataset from [here](https://roc-ng.github.io/XD-Violence/).
 - Change the file paths of ```make_list.py``` in the list folder to generate the training and test list.
