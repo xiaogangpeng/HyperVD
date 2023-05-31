@@ -26,10 +26,12 @@ The implementation mainly references the repositories of [XDVioDet](https://gith
 
 If this work is helpful for your research, please consider citing the following BibTeX entry.
 ```
-@article{xx,
-  title={Learning Weakly Supervised Audio-Visual Violence Detection in Hyperbolic Space},
-  author={xx},
-  journal={arXiv preprint arXiv:xx},
-  year={2023}
+@misc{peng2023learning,
+      title={Learning Weakly Supervised Audio-Visual Violence Detection in Hyperbolic Space}, 
+      author={Xiaogang Peng and Hao Wen and Yikai Luo and Xiao Zhou and Keyang Yu and Yigang Wang and Zizhao Wu},
+      year={2023},
+      eprint={2305.18797},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
