@@ -28,7 +28,7 @@ def train(dataloader, model, optimizer, args, criterion):
             labels = labels.float().to(args.device)
 
             # features, v_logits, a_logits, av_logits = model(inputs)
-            mil_logits, logits, _, _ = model(inputs, seq_len)
+            mil_logits, logits = model(inputs, seq_len)
             # logits = logits.squeeze()
             # audio_logits = audio_logits.squeeze()
             # visual_logits = visual_logits.squeeze()
